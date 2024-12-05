@@ -3,10 +3,10 @@ import requests
 from huggingface_hub import InferenceClient
 import base64
 
-client = InferenceClient(api_key="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")
+client = InferenceClient(api_key="API key")
 # Function to query the Hugging Face model
 API_URL = "https://api-inference.huggingface.co/models/openai/whisper-large-v3-turbo"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer API key"}
 sarvamurl = "https://api.sarvam.ai/text-to-speech"
 sarvamheaders = {
     "api-subscription-key": "731bcfac-aef2-4541-88ee-1dc114b017a4",
