@@ -9,7 +9,7 @@ API_URL = "https://api-inference.huggingface.co/models/openai/whisper-large-v3-t
 headers = {"Authorization": "Bearer API key"}
 sarvamurl = "https://api.sarvam.ai/text-to-speech"
 sarvamheaders = {
-    "api-subscription-key": "731bcfac-aef2-4541-88ee-1dc114b017a4",
+    "api-subscription-key": "apikey",
     "Content-Type": "application/json"
 }
 def query(filename):
